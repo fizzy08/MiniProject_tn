@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+           background-color: blanchedalmond;
+        }
+        header{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 80px;
+            text-align: center;
+            background-color: aqua;
+            color: brown;
+        }
+        #maindiv{
+            display: grid;
+            grid-template-areas: "A B  "
+            "C D"
+            "E F";
+            justify-items: center;
+        }
+        #div1{grid-area: A;}
+        #div2{grid-area: B;}
+        #div3{grid-area: C;}
+        #div4{grid-area: D;}
+        #div5{grid-area: E;}
+        #div6{grid-area: F;}
+        #audio1{
+            align-content: center;
+            padding-left: 40%;
+            padding-bottom: 40px;
+        }
+        #Nat{
+            font-size: 30px;
+            padding-left: 40px;
+            color: lightcoral;
+        }
+        footer{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-align: center;
+            background-color:khaki;
+            color:goldenrod;
+        }  
+    </style>  
+</head>
+<body>
+    <header>Historical Places in India</header><br>
+    <div id="maindiv">
+        <div id="div1"><a href="https://en.wikipedia.org/wiki/Taj_Mahal"><img src="https://www.holidify.com/images/attr_square/1020.jpg" alt="" height="250px" width="400px"></a></div>
+        <div id="div2"><a href="https://en.wikipedia.org/wiki/Qutb_Minar"><img src="https://www.holidify.com/images/attr_square/1727.jpg" alt=""height="250px" width="400px"></a></div>
+        <div id="div3"><a href="https://en.wikipedia.org/wiki/Hawa_Mahal"><img src="https://www.holidify.com/images/attr_square/2131.png" alt=""height="250px" width="400px"></a></div>
+        <div id="div4"><a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"><img src="https://www.holidify.com/images/attr_square/2435.jpg" alt=""height="250px" width="400px"></a></div>
+        <div id="div5"><a href="https://en.wikipedia.org/wiki/Mehrangarh"><img src="https://www.holidify.com/images/attr_square/2182.jpg" alt=""height="250px" width="400px"></a></div>
+        <div id="div6"><a href="https://en.wikipedia.org/wiki/Gwalior_Fort"><img src="https://www.holidify.com/images/attr_square/1951.jpg" alt=""height="250px" width="400px"></a></div>
+    </div>
+    <div id="audio1">
+        <h5 id="Nat">National Anthem</h5>
+        <audio controls>
+            <source src="https://top10ringtone.com/wp-content/uploads/2022/07/Indian-National-Anthem-Instrumental-Ringtone-Download.mp3">
+        </audio>
+    </div>
+    <footer>Designed And Developed By Faizan</footer>
+</body>
+</html>
